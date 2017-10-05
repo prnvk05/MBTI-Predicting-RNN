@@ -1,5 +1,5 @@
 # MBTI-Predicting-RNN
-In this project, a RNN is used to predict the Myers–Briggs Type Indicator (MBTI) of a person, based on their posts on social media.
+In this project, an RNN is used to predict the Myers–Briggs Type Indicator (MBTI) of a person, based on their posts on social media.
 The dataset for this problem can be found at https://www.kaggle.com/datasnaek/mbti-type
 
 # Description
@@ -8,13 +8,13 @@ The dataset for this problem can be found at https://www.kaggle.com/datasnaek/mb
 
 *From the dataset website*
 
->The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axis:
+>The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axes:
 
 >Introversion (I) – Extroversion (E)
 Intuition (N) – Sensing (S)
 Thinking (T) – Feeling (F)
 Judging (J) – Perceiving (P)
-(More can be learned about what these mean here)
+
 
 >So for example, someone who prefers introversion, intuition, thinking and perceiving would be labelled an INTP in the MBTI system, and there are lots of personality based components that would model or describe this person’s preferences or behaviour based on the label.
 
@@ -22,7 +22,7 @@ Judging (J) – Perceiving (P)
 
 >From scientific or psychological perspective it is based on the work done on cognitive functions by Carl Jung i.e. Jungian Typology. This was a model of 8 distinct functions, thought processes or ways of thinking that were suggested to be present in the mind. Later this work was transformed into several different personality systems to make it more accessible, the most popular of which is of course the MBTI.
 
->Recently, its use/validity has come into question because of unreliability in experiments surrounding it, among other reasons. But it is still clung to as being a very useful tool in a lot of areas, and the purpose of this dataset is to help see if any patterns can be detected in specific types and their style of writing, which overall explores the validity of the test in analysing, predicting or categorising behaviour.
+>Recently, its use/validity has come into question because of unreliability in experiments surrounding it, among other reasons. But it is still clung to as being a very useful tool in a lot of areas, and the purpose of this dataset is to help see if any patterns can be detected in specific types and their style of writing, which overall explores the validity of the test in analyzing, predicting or categorizing behaviour.
 
 ## About Dataset
 
