@@ -4,7 +4,6 @@ The dataset for this problem can be found at https://www.kaggle.com/datasnaek/mb
 
 # Description
 
----
 ## About MBTI 
 
 *From the dataset website*
@@ -25,14 +24,13 @@ Judging (J) – Perceiving (P)
 
 >Recently, its use/validity has come into question because of unreliability in experiments surrounding it, among other reasons. But it is still clung to as being a very useful tool in a lot of areas, and the purpose of this dataset is to help see if any patterns can be detected in specific types and their style of writing, which overall explores the validity of the test in analysing, predicting or categorising behaviour.
 
----
 ## About Dataset
 
 The dataset contains 8675 samples, where each sample consists of the person's MBTI and their last 50 posts. The posts are seperated by '|||'.
 
----
 ## Solution
 
 In this problem, a RNN containg 256 units is used. The last unit is connected to a fully connected layer (ReLU activated) which is connected to another fully connected layer (softmax activated) consisting of 16 units in order to classify a post into 16 different MBTI types.
+---
 
  
