@@ -31,6 +31,6 @@ The dataset contains 8675 samples, where each sample consists of the person's MB
 ## Solution
 
 In this problem, a RNN containg 256 units is used. The last unit is connected to a fully connected layer (ReLU activated) which is connected to another fully connected layer (softmax activated) consisting of 16 units in order to classify a post into 16 different MBTI types.
----
+
 
  
